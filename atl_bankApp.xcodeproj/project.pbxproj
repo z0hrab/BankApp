@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95001C1F29B371B4007951D3 /* CrudOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95001C1E29B371B4007951D3 /* CrudOperations.swift */; };
+		95222E7829A9292400330481 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95222E7729A9292400330481 /* TransferViewController.swift */; };
+		95222E7A29A93F6A00330481 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95222E7929A93F6A00330481 /* ProfileViewController.swift */; };
+		954E3414299A3C11000DCC1B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E3413299A3C11000DCC1B /* RegisterViewController.swift */; };
+		957374C4299CE1A000457A1E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957374C3299CE1A000457A1E /* HomeViewController.swift */; };
+		957374C6299D058400457A1E /* NoCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957374C5299D058400457A1E /* NoCardViewController.swift */; };
+		9577376829B60AFB0057F387 /* loadline.json in Resources */ = {isa = PBXBuildFile; fileRef = 9577376729B60AFB0057F387 /* loadline.json */; };
+		9591BE3029A7802B0057515B /* UserDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591BE2F29A7802B0057515B /* UserDelegateProtocol.swift */; };
+		95AFDD8229A8EA8700894645 /* CardExistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AFDD8129A8EA8700894645 /* CardExistsViewController.swift */; };
+		95B19A3C299A1A3100BF2BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B19A3B299A1A3100BF2BF3 /* AppDelegate.swift */; };
+		95B19A3E299A1A3100BF2BF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B19A3D299A1A3100BF2BF3 /* SceneDelegate.swift */; };
+		95B19A40299A1A3100BF2BF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B19A3F299A1A3100BF2BF3 /* LoginViewController.swift */; };
+		95B19A43299A1A3100BF2BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B19A41299A1A3100BF2BF3 /* Main.storyboard */; };
+		95B19A45299A1A3200BF2BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B19A44299A1A3200BF2BF3 /* Assets.xcassets */; };
+		95B19A48299A1A3200BF2BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B19A46299A1A3200BF2BF3 /* LaunchScreen.storyboard */; };
+		95B19A50299A1E0E00BF2BF3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B19A4F299A1E0E00BF2BF3 /* User.swift */; };
+		95B19A52299A1EB300BF2BF3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B19A51299A1EB300BF2BF3 /* Card.swift */; };
+		95D8164429B6016100DB4F50 /* abb.json in Resources */ = {isa = PBXBuildFile; fileRef = 95D8164329B6016100DB4F50 /* abb.json */; };
+		95EE9BA229AA076100C0A3D8 /* UserDelegateHomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE9BA129AA076100C0A3D8 /* UserDelegateHomeProtocol.swift */; };
+		D3734ECAB5DE2B39375746B1 /* Pods_atl_bankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10476AA3D469A997B591025 /* Pods_atl_bankApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CDAF464F627E8FA76948B14 /* Pods-atl_bankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atl_bankApp.release.xcconfig"; path = "Target Support Files/Pods-atl_bankApp/Pods-atl_bankApp.release.xcconfig"; sourceTree = "<group>"; };
+		4C63EE2CBD581DF593A8B33F /* Pods-atl_bankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atl_bankApp.debug.xcconfig"; path = "Target Support Files/Pods-atl_bankApp/Pods-atl_bankApp.debug.xcconfig"; sourceTree = "<group>"; };
+		95001C1E29B371B4007951D3 /* CrudOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudOperations.swift; sourceTree = "<group>"; };
+		95222E7729A9292400330481 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		95222E7929A93F6A00330481 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		954E3413299A3C11000DCC1B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		957374C3299CE1A000457A1E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		957374C5299D058400457A1E /* NoCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCardViewController.swift; sourceTree = "<group>"; };
+		9577376729B60AFB0057F387 /* loadline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadline.json; sourceTree = "<group>"; };
+		9591BE2F29A7802B0057515B /* UserDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDelegateProtocol.swift; sourceTree = "<group>"; };
+		95AFDD8129A8EA8700894645 /* CardExistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardExistsViewController.swift; sourceTree = "<group>"; };
+		95B19A38299A1A3100BF2BF3 /* atl_bankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atl_bankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B19A3B299A1A3100BF2BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95B19A3D299A1A3100BF2BF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95B19A3F299A1A3100BF2BF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		95B19A42299A1A3100BF2BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95B19A44299A1A3200BF2BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B19A47299A1A3200BF2BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95B19A49299A1A3200BF2BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B19A4F299A1E0E00BF2BF3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		95B19A51299A1EB300BF2BF3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		95D8164329B6016100DB4F50 /* abb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abb.json; sourceTree = "<group>"; };
+		95EE9BA129AA076100C0A3D8 /* UserDelegateHomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDelegateHomeProtocol.swift; sourceTree = "<group>"; };
+		B10476AA3D469A997B591025 /* Pods_atl_bankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atl_bankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B19A35299A1A3100BF2BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3734ECAB5DE2B39375746B1 /* Pods_atl_bankApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95B19A2F299A1A3100BF2BF3 = {
+			isa = PBXGroup;
+			children = (
+				95B19A3A299A1A3100BF2BF3 /* atl_bankApp */,
+				95B19A39299A1A3100BF2BF3 /* Products */,
+				BC88C7A3B8F1330F0624DAC2 /* Pods */,
+				F0F43BB72CD81BC75D2F6364 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95B19A39299A1A3100BF2BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B19A38299A1A3100BF2BF3 /* atl_bankApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B19A3A299A1A3100BF2BF3 /* atl_bankApp */ = {
+			isa = PBXGroup;
+			children = (
+				95B19A3B299A1A3100BF2BF3 /* AppDelegate.swift */,
+				95B19A3D299A1A3100BF2BF3 /* SceneDelegate.swift */,
+				95B19A3F299A1A3100BF2BF3 /* LoginViewController.swift */,
+				95222E7729A9292400330481 /* TransferViewController.swift */,
+				954E3413299A3C11000DCC1B /* RegisterViewController.swift */,
+				9591BE2F29A7802B0057515B /* UserDelegateProtocol.swift */,
+				95EE9BA129AA076100C0A3D8 /* UserDelegateHomeProtocol.swift */,
+				957374C3299CE1A000457A1E /* HomeViewController.swift */,
+				957374C5299D058400457A1E /* NoCardViewController.swift */,
+				95222E7929A93F6A00330481 /* ProfileViewController.swift */,
+				95AFDD8129A8EA8700894645 /* CardExistsViewController.swift */,
+				95001C1E29B371B4007951D3 /* CrudOperations.swift */,
+				95B19A41299A1A3100BF2BF3 /* Main.storyboard */,
+				95B19A4F299A1E0E00BF2BF3 /* User.swift */,
+				95B19A51299A1EB300BF2BF3 /* Card.swift */,
+				95B19A44299A1A3200BF2BF3 /* Assets.xcassets */,
+				95B19A46299A1A3200BF2BF3 /* LaunchScreen.storyboard */,
+				95B19A49299A1A3200BF2BF3 /* Info.plist */,
+				95D8164329B6016100DB4F50 /* abb.json */,
+				9577376729B60AFB0057F387 /* loadline.json */,
+			);
+			path = atl_bankApp;
+			sourceTree = "<group>";
+		};
+		BC88C7A3B8F1330F0624DAC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C63EE2CBD581DF593A8B33F /* Pods-atl_bankApp.debug.xcconfig */,
+				0CDAF464F627E8FA76948B14 /* Pods-atl_bankApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0F43BB72CD81BC75D2F6364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10476AA3D469A997B591025 /* Pods_atl_bankApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B19A37299A1A3100BF2BF3 /* atl_bankApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B19A4C299A1A3200BF2BF3 /* Build configuration list for PBXNativeTarget "atl_bankApp" */;
+			buildPhases = (
+				5053A24454F2EFDE0B25C613 /* [CP] Check Pods Manifest.lock */,
+				95B19A34299A1A3100BF2BF3 /* Sources */,
+				95B19A35299A1A3100BF2BF3 /* Frameworks */,
+				95B19A36299A1A3100BF2BF3 /* Resources */,
+				FDE016CCE80BB60552E670B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atl_bankApp;
+			productName = atl_bankApp;
+			productReference = 95B19A38299A1A3100BF2BF3 /* atl_bankApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B19A30299A1A3100BF2BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					95B19A37299A1A3100BF2BF3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 95B19A33299A1A3100BF2BF3 /* Build configuration list for PBXProject "atl_bankApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B19A2F299A1A3100BF2BF3;
+			productRefGroup = 95B19A39299A1A3100BF2BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B19A37299A1A3100BF2BF3 /* atl_bankApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B19A36299A1A3100BF2BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B19A48299A1A3200BF2BF3 /* LaunchScreen.storyboard in Resources */,
+				9577376829B60AFB0057F387 /* loadline.json in Resources */,
+				95D8164429B6016100DB4F50 /* abb.json in Resources */,
+				95B19A45299A1A3200BF2BF3 /* Assets.xcassets in Resources */,
+				95B19A43299A1A3100BF2BF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5053A24454F2EFDE0B25C613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-atl_bankApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE016CCE80BB60552E670B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atl_bankApp/Pods-atl_bankApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atl_bankApp/Pods-atl_bankApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-atl_bankApp/Pods-atl_bankApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B19A34299A1A3100BF2BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B19A50299A1E0E00BF2BF3 /* User.swift in Sources */,
+				95001C1F29B371B4007951D3 /* CrudOperations.swift in Sources */,
+				95B19A40299A1A3100BF2BF3 /* LoginViewController.swift in Sources */,
+				95B19A52299A1EB300BF2BF3 /* Card.swift in Sources */,
+				95222E7829A9292400330481 /* TransferViewController.swift in Sources */,
+				957374C6299D058400457A1E /* NoCardViewController.swift in Sources */,
+				95AFDD8229A8EA8700894645 /* CardExistsViewController.swift in Sources */,
+				95222E7A29A93F6A00330481 /* ProfileViewController.swift in Sources */,
+				954E3414299A3C11000DCC1B /* RegisterViewController.swift in Sources */,
+				95EE9BA229AA076100C0A3D8 /* UserDelegateHomeProtocol.swift in Sources */,
+				9591BE3029A7802B0057515B /* UserDelegateProtocol.swift in Sources */,
+				95B19A3C299A1A3100BF2BF3 /* AppDelegate.swift in Sources */,
+				957374C4299CE1A000457A1E /* HomeViewController.swift in Sources */,
+				95B19A3E299A1A3100BF2BF3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95B19A41299A1A3100BF2BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B19A42299A1A3100BF2BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95B19A46299A1A3200BF2BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B19A47299A1A3200BF2BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95B19A4A299A1A3200BF2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95B19A4B299A1A3200BF2BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B19A4D299A1A3200BF2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C63EE2CBD581DF593A8B33F /* Pods-atl_bankApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = atl_bankApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zohrab.atl-bankApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95B19A4E299A1A3200BF2BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CDAF464F627E8FA76948B14 /* Pods-atl_bankApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = atl_bankApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zohrab.atl-bankApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B19A33299A1A3100BF2BF3 /* Build configuration list for PBXProject "atl_bankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B19A4A299A1A3200BF2BF3 /* Debug */,
+				95B19A4B299A1A3200BF2BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B19A4C299A1A3200BF2BF3 /* Build configuration list for PBXNativeTarget "atl_bankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B19A4D299A1A3200BF2BF3 /* Debug */,
+				95B19A4E299A1A3200BF2BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95B19A30299A1A3100BF2BF3 /* Project object */;
+}
