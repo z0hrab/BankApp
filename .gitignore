@@ -1,2 +1,12 @@
-# ignore ALL files in ANY directory named Pod
+# Ignore ALL files in ANY directory named Pod
 Pods/
+
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
